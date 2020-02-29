@@ -9,4 +9,4 @@ RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.2/install.sh | b
 RUN . /root/.nvm/nvm.sh && nvm install 12.16.1
 
 WORKDIR /usr/local/src
-RUN node --version
+RUN nvm ls
