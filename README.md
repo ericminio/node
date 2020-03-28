@@ -1,9 +1,13 @@
-A docker image with [```nvm```](https://github.com/nvm-sh/nvm) installed
+A docker image with:
+1. [```nvm```](https://github.com/nvm-sh/nvm) installed + latest node lts
+2. my favorite prompt so far
+3. user dev
 
 ```
-docker run -it --rm -v ${PWD}:/usr/local/src ericminio/node
+docker run -it --rm ericminio/node
 
-root@<id>:/usr/local/src# nvm install --lts
+dev in ~
+>
 ```
 
 In case you need additional certificates, like say the corporate one of you host machine, here is a useful link: 
